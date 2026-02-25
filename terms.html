@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service — StyleFinder</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --black: #0a0a14;
+            --charcoal: #111125;
+            --neon-blue: #4da6ff;
+            --neon-purple: #a673ff;
+            --neon-cyan: #59d9f2;
+            --muted: #8888a0;
+            --text-dim: rgba(255,255,255,0.55);
+            --text-body: rgba(255,255,255,0.75);
+            --divider: rgba(255,255,255,0.06);
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
+            background: var(--black);
+            color: #fff;
+            -webkit-font-smoothing: antialiased;
+        }
+        nav {
+            position: fixed; top: 0; width: 100%; z-index: 100; padding: 18px 0;
+            background: rgba(10,10,20,0.75); backdrop-filter: blur(24px);
+            -webkit-backdrop-filter: blur(24px); border-bottom: 1px solid var(--divider);
+        }
+        .nav-inner {
+            max-width: 760px; margin: 0 auto; padding: 0 24px;
+            display: flex; align-items: center; justify-content: space-between;
+        }
+        .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+        .logo-text { font-size: 18px; font-weight: 700; color: #fff; }
+        .logo-text span {
+            background: linear-gradient(135deg, var(--neon-blue), var(--neon-purple));
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+        }
+        .back-link { font-size: 13px; color: var(--neon-blue); text-decoration: none; font-weight: 600; }
+        .back-link:hover { text-decoration: underline; }
+        .content {
+            max-width: 760px; margin: 0 auto; padding: 120px 24px 80px;
+        }
+        .content h1 {
+            font-size: 36px; font-weight: 800; margin-bottom: 8px; letter-spacing: -0.5px;
+        }
+        .updated {
+            font-size: 13px; color: var(--muted); margin-bottom: 48px;
+        }
+        .content h2 {
+            font-size: 18px; font-weight: 700; margin-top: 40px; margin-bottom: 12px;
+            color: #fff;
+        }
+        .content p {
+            font-size: 15px; line-height: 1.75; color: var(--text-body); margin-bottom: 16px;
+        }
+        .content a { color: var(--neon-blue); text-decoration: none; }
+        .content a:hover { text-decoration: underline; }
+        footer {
+            border-top: 1px solid var(--divider); padding: 32px 0;
+        }
+        .footer-inner {
+            max-width: 760px; margin: 0 auto; padding: 0 24px;
+            display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px;
+        }
+        .footer-inner span { font-size: 13px; color: var(--muted); }
+        .footer-links { display: flex; gap: 20px; }
+        .footer-links a { font-size: 13px; color: var(--muted); text-decoration: none; }
+        .footer-links a:hover { color: var(--neon-blue); }
+        @media (max-width: 600px) {
+            .content h1 { font-size: 28px; }
+            .footer-inner { flex-direction: column; text-align: center; }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-inner">
+            <a href="/" class="logo"><div class="logo-text">Style<span>Finder</span></div></a>
+            <a href="/" class="back-link">← Back to Home</a>
+        </div>
+    </nav>
+
+    <div class="content">
+        <h1>Terms of Service</h1>
+        <div class="updated">Last Updated: February 2026</div>
+
+        <p>By using the StyleFinder mobile application ("App"), you agree to these Terms of Service.</p>
+
+        <h2>1. Use of the App</h2>
+        <p>StyleFinder provides visual search technology to help users discover where to purchase items seen in images. You agree to use the App for lawful purposes only.</p>
+
+        <h2>2. Accounts</h2>
+        <p>No account is required to use StyleFinder.</p>
+
+        <h2>3. Subscriptions</h2>
+        <p>StyleFinder may offer paid subscriptions that provide additional features. Subscriptions automatically renew unless canceled at least 24 hours before the end of the current period. Payment is charged through Apple ID. You can manage subscriptions in your Apple account settings.</p>
+
+        <h2>4. Free Trials</h2>
+        <p>If offered, free trials automatically convert to paid subscriptions unless canceled.</p>
+
+        <h2>5. Intellectual Property</h2>
+        <p>All content and technology within StyleFinder is owned by StyleFinder or its licensors. You may not copy or redistribute any portion of the App.</p>
+
+        <h2>6. Disclaimer</h2>
+        <p>StyleFinder provides search results but does not guarantee product availability, pricing accuracy, or merchant reliability.</p>
+
+        <h2>7. Limitation of Liability</h2>
+        <p>StyleFinder is not liable for any damages arising from use of the App.</p>
+
+        <h2>8. Termination</h2>
+        <p>We may suspend or terminate access if you violate these Terms.</p>
+
+        <h2>9. Changes to Terms</h2>
+        <p>We may update these Terms. Continued use of the App constitutes acceptance.</p>
+
+        <h2>10. Contact</h2>
+        <p><a href="mailto:support@finderstyleapp.app">support@finderstyleapp.app</a></p>
+    </div>
+
+    <footer>
+        <div class="footer-inner">
+            <span>© 2026 StyleFinder. All rights reserved.</span>
+            <div class="footer-links">
+                <a href="/privacy.html">Privacy Policy</a>
+                <a href="/terms.html">Terms of Service</a>
+                <a href="mailto:support@finderstyleapp.app">Support</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
